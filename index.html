@@ -8,14 +8,20 @@
   </head>
   <body>
     <!-- Start of Nav Bar -->
-    <div class="container"></div>
+    <div>
+      <p>Everest</p>
+      <ul>
+        <li>Login</li>
+        <li>Contact</li>
+        <li>Everest At Night</li>
+      </ul>
+    </div>
     <!-- End of Nav Bar -->
     <!-- Start of Login -->
     <div class="container">
-      <h1>Welcome To Everest</h1>
       <div id="login" class="form-box">
         <form action="">
-          <h2 id="login-h2">Login</h2>
+          <h2 id="login-h2">Welcome To Everest</h2>
           <input
             class="input-look"
             type="email"
@@ -31,8 +37,12 @@
             placeholder="Password"
             required
           />
-          <button type="submit" name="login">Login</button>
-          <p>Dont have an account?<a href="#">Register</a></p>
+          <button class="input-look" id="login-btn" type="submit" name="login">
+            Login
+          </button>
+          <p id="p-register">
+            Dont have an account? <a id="a-register" href="#">Register</a>
+          </p>
         </form>
       </div>
     </div>

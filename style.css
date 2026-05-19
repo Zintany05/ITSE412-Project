@@ -6,14 +6,20 @@
 }
 
 body {
+  font-family: sans-serif;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(to right, #f0f8ff, #2b3d2d);
+  background: linear-gradient(to right, #032644, #02584d);
   color: rgb(24, 31, 25) d;
 }
 
+/* Start of Nav */
+
+/* End of Nav  */
+/*Start Form Login */
 .container {
   margin: 0 15px;
 }
@@ -31,6 +37,7 @@ body {
   font-size: 34px;
   text-align: center;
   margin-bottom: 20px;
+  color: #02584d;
 }
 
 .input-look {
@@ -42,4 +49,36 @@ body {
   font-size: 16px;
   color: #333;
   margin-bottom: 20px;
+  border-radius: 6px;
 }
+
+#login-btn {
+  background: #eee;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #02584d;
+}
+
+#login-btn:hover {
+  background: #17645b;
+  color: white;
+}
+
+#p-register {
+  text-align: center;
+  font-size: 14-5px;
+  margin-bottom: 10px;
+  color: #02584d;
+}
+
+#a-register {
+  text-decoration: none;
+  color: #7494ec;
+  transition: 0.5s;
+}
+
+#a-register:hover {
+  text-decoration: underline;
+  font-size: 17px;
+}
+/* End Form Login */
