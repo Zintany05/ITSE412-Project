@@ -4,3 +4,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #f0f8ff, #2b3d2d);
+  color: rgb(24, 31, 25) d;
+}
+
+.container {
+  margin: 0 15px;
+}
+
+.form-box {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#login-h2 {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-look {
+  width: 100%;
+  padding: 12px;
+  background: #eee;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}

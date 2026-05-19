@@ -4,15 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Everest</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Welcome To Everest</h1>
+    <!-- Start of Nav Bar -->
+    <div class="container"></div>
+    <!-- End of Nav Bar -->
+    <!-- Start of Login -->
     <div class="container">
+      <h1>Welcome To Everest</h1>
       <div id="login" class="form-box">
         <form action="">
-          <h2>Login</h2>
-          <input type="email" name="email" placeholder="Email" required />
+          <h2 id="login-h2">Login</h2>
           <input
+            class="input-look"
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+
+          <input
+            class="input-look"
             type="password"
             name="password"
             placeholder="Password"
@@ -23,5 +36,8 @@
         </form>
       </div>
     </div>
+    <!-- End of Login -->
+    <!-- Start Of footing  -->
+    <!-- End of Footing -->
   </body>
 </html>
