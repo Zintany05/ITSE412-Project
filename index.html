@@ -6,20 +6,22 @@
     <title>Everest</title>
   </head>
   <body>
-    <form action="">
-      <div id="login">
-        <ul>
-          <li>
-            <label for="userName">User Name:</label>
-            <input id="userName" name="userName" type="text" />
-          </li>
-          <li>
-            <label for="Password">Password :</label>
-            <input type="password" id="password" name="password" />
-          </li>
-          <li><input type="submit" id="sub" /></li>
-        </ul>
+    <h1>Welcome To Everest</h1>
+    <div class="container">
+      <div id="login" class="form-box">
+        <form action="">
+          <h2>Login</h2>
+          <input type="email" name="email" placeholder="Email" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <button type="submit" name="login">Login</button>
+          <p>Dont have an account?<a href="#">Register</a></p>
+        </form>
       </div>
-    </form>
+    </div>
   </body>
 </html>
