@@ -7,43 +7,81 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="login-container">
-      <!-- Start of Login -->
-      <div class="container">
-        <div id="login" class="form-box">
-          <form action="">
-            <h2 id="login-h2">Welcome To Everest</h2>
-            <input
-              class="input-look"
-              type="email"
-              name="email"
-              placeholder="Email"
-              required
-            />
+    <!-- Start of Login -->
 
-            <input
-              class="input-look"
-              type="password"
-              name="password"
-              placeholder="Password"
-              required
-            />
-            <button
-              class="input-look"
-              id="login-btn"
-              type="submit"
-              name="login"
-            >
-              Login
-            </button>
-            <p id="p-register">
-              Dont have an account? <a id="a-register" href="#">Register</a>
-            </p>
-          </form>
-        </div>
+    <div id="container">
+      <div id="login" class="form-box">
+        <form action="">
+          <h2 id="login-h2">Welcome To Everest</h2>
+          <input
+            class="input-look"
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+
+          <input
+            class="input-look"
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <button class="input-look" id="login-btn" type="submit" name="login">
+            Login
+          </button>
+          <p id="p-register">
+            Dont have an account? <a id="a-register" href="#">Register</a>
+          </p>
+        </form>
       </div>
     </div>
+
     <!-- End of Login -->
+    <!-- Start of Register  -->
+    <div id="container">
+      <div id="register" class="form-box">
+        <form action="">
+          <h2 id="login-h2">Register</h2>
+          <input
+            class="input-look"
+            type="text"
+            name="user-ame"
+            placeholder="User Name"
+            required
+          />
+          <input
+            class="input-look"
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+
+          <input
+            class="input-look"
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <button
+            class="input-look"
+            id="register-btn"
+            type="submit"
+            name="register"
+          >
+            Register
+          </button>
+          <p id="p-register">
+            Already Have an account? <a id="a-register" href="#">Login</a>
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <!-- End of Register  -->
     <!-- Start Of footing  -->
     <!-- End of Footing -->
   </body>

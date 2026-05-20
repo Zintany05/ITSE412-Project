@@ -5,19 +5,19 @@
   box-sizing: border-box;
 }
 
-#login-container {
+body {
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(to right, #032644, #02584d);
+  background: linear-gradient(to right, #f2f4f5, #02584d);
   color: rgb(24, 31, 25) d;
 }
 
 /*Start Form Login */
-.container {
+.-login-container {
   margin: 0 15px;
 }
 
@@ -76,6 +76,17 @@
 
 #a-register:hover {
   text-decoration: underline;
-  font-size: 17px;
 }
 /* End Form Login */
+
+#register-btn {
+  background: #eee;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #02584d;
+}
+
+#register-btn:hover {
+  background: #17645b;
+  color: white;
+}
