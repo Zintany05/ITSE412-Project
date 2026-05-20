@@ -14,7 +14,7 @@ registerLink.addEventListener("click", (event) => {
   showForm(event, "register");
 });
 
-const loginLink = document.querySelector("a-login");
+const loginLink = document.querySelector("#a-login");
 loginLink.addEventListener("click", (event) => {
   showForm(event, "login");
 });
