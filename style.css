@@ -94,3 +94,20 @@ body {
   background: #17645b;
   color: white;
 }
+
+#p-login {
+  text-align: center;
+  font-size: 14-5px;
+  margin-bottom: 10px;
+  color: #02584d;
+}
+
+#a-login {
+  text-decoration: none;
+  color: #7494ec;
+  transition: 0.5s;
+}
+
+#a-login:hover {
+  text-decoration: underline;
+}
