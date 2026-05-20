@@ -5,20 +5,17 @@
   box-sizing: border-box;
 }
 
-body {
+#login-container {
   font-family: sans-serif;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   background: linear-gradient(to right, #032644, #02584d);
   color: rgb(24, 31, 25) d;
 }
 
-/* Start of Nav */
-
-/* End of Nav  */
 /*Start Form Login */
 .container {
   margin: 0 15px;
