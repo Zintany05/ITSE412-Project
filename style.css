@@ -28,8 +28,12 @@ body {
   background: rgb(255, 255, 255);
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
   border-radius: 10px;
+  display: none; /* hides form from screen and doesnt take space - we will add an active class to login so can work */
 }
 
+.form-box.active {
+  display: block;
+}
 #login-h2 {
   font-size: 34px;
   text-align: center;
