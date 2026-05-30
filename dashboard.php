@@ -26,8 +26,9 @@
     <div id=""calendar>
 
     </div>
-    <div id="day-details"></div>
-
+    <div id="day-details">
+        <!-- this is what will apear when we press on the calendar  -->
+    </div>
 
   </div>
   <!-- End of Dashboard -->
