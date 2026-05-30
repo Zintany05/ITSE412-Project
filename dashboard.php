@@ -23,7 +23,7 @@
 
  <!-- start of Dashboar -->
   <div class="dashboard">
-    <div id=""calendar>
+    <div id="calendar">
 <!-- we will be keeping this empty and use java script to tell the calendar to show up inside this div  -->
     </div>
     <div id="day-details">
@@ -35,5 +35,6 @@
    
 
   <script src="js/libs/index.global.min.js"></script>
+  <script src="js/dashboard.js"></script>
 </body>
 </html>
