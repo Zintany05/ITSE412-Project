@@ -24,7 +24,7 @@
  <!-- start of Dashboar -->
   <div class="dashboard">
     <div id=""calendar>
-
+<!-- we will be keeping this empty and use java script to tell the calendar to show up inside this div  -->
     </div>
     <div id="day-details">
         <!-- this is what will apear when we press on the calendar  -->
@@ -34,5 +34,6 @@
   <!-- End of Dashboard -->
    
 
+  <script src="js/libs/index.global.min.js"></script>
 </body>
 </html>
