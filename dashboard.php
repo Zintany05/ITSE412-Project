@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/dashboard.css">
+
     <title>Everest Dashboard</title>
 </head>
 <body>
@@ -34,7 +34,8 @@
   <!-- End of Dashboard -->
    
 
-  <script src="js/libs/index.global.min.js"></script>
+  <script src="js/libs/index.global.min.js"></script>  
   <script src="js/dashboard.js"></script>
+  <link rel="stylesheet" href="css/dashboard.css">
 </body>
 </html>
