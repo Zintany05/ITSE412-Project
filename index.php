@@ -66,6 +66,15 @@
             placeholder="Password"
             required
           />
+          <input
+
+            id="pass-confirm"
+            class="input-look"
+            type="password"
+            name="password"
+            placeholder="Confirm Password"
+            required
+          />
           <button
             class="input-look"
             id="register-btn"
