@@ -8,18 +8,9 @@
 </head>
 <body>
     
-<!-- Start of header  -->
- <div class="header">
-     <div id="logo">Everest</div>
-     <div class="left-links">
-        <ul>
-            <li><a href="#">login</a></li>
-            <li><a href="#">Information</a></li>
-            <li><a href="#">Contact us</a></li>
-        </ul>
-     </div>
- </div>
- <!-- End of header  -->
+<!-- Start of Side Bar -->
+
+<!-- End of Side Bar -->
 
  <!-- start of Dashboar -->
   <div class="dashboard">
