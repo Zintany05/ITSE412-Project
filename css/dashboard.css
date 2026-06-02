@@ -1,3 +1,38 @@
 .fc .fc-button-primary:disabled {
   background-color: rgb(24, 95, 40);
 }
+.fc .fc-view-harness {
+  background-color: beige;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(201, 238, 218);
+}
+
+.main-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: rgb(159, 165, 163);
+  height: 100vh;
+  left: 0;
+  right: 0;
+  transition: transform 0.3s ease-in-out;
+  /* this will keep the side bar fixed to its position */
+}
+
+.top-sidebar {
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 20px;
+}

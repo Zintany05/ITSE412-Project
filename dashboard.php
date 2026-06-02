@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- box icon usage as a font  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
     <title>Everest Dashboard</title>
 </head>
 <body>
-    
+    <div class="main-container">
 <!-- Start of Side Bar -->
+
+<div class="sidebar" id="side-bar">
+    <div class="top-sidebar">
+        <div class="logo">
+                <span>Everest</span>
+        </div>
+    </div>
+    <div class="user">Porfile pic will be here</div>
+    <ul class="nav-links">
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Everest at Night</a></li>
+        <li><a href="#">logout</a></li>
+    </ul>
+</div>
 
 <!-- End of Side Bar -->
 
@@ -24,6 +42,8 @@
   </div>
   <!-- End of Dashboard -->
    
+
+  </div>
 
   <script src="js/libs/index.global.min.js"></script>  
   <script src="js/dashboard.js"></script>
