@@ -6,6 +6,9 @@
     <!-- box icon usage as a font  -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+    <!-- this is the cdn for font awsome i linked it so i can use icons  -->
+     <script src="https://kit.fontawesome.com/372263cf93.js" crossorigin="anonymous"></script>
+
 
     <title>Everest Dashboard</title>
 </head>
@@ -16,15 +19,30 @@
 <div class="sidebar" id="side-bar">
     <div class="top-sidebar">
         <div class="logo">
-                <span>Everest</span>
+            <i class="fa-solid fa-mountain"></i>
+                <span class="logo-text">Everest</span>
         </div>
     </div>
     <div class="user">Porfile pic will be here</div>
     <ul class="nav-links">
-        <li><a href="#">Contact us</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Everest at Night</a></li>
-        <li><a href="#">logout</a></li>
+        <li><a href="#">
+            <i class="fa-regular fa-envelope"></i>
+            <span class="link-text">Contact US</span>
+        </a></li>
+        <li><a href="#">
+            <i class="fa-solid fa-circle-info"></i>
+            <span class="link-text">About</span>
+        </a></li>
+        <li>
+            <button id="night-mode">
+                    <i class="fa-regular fa-moon"></i>
+                    <span class="button-text">Everest at Night</span>
+            </button>
+        </li>
+        <li><a href="#">
+           <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <span class="link-text">Log out</span>
+        </a></li>
     </ul>
 </div>
 
@@ -43,7 +61,7 @@
   <!-- End of Dashboard -->
    
 
-  </div>
+  </div gi>
 
   <script src="js/libs/index.global.min.js"></script>  
   <script src="js/dashboard.js"></script>
