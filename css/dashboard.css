@@ -4,6 +4,7 @@
 .fc .fc-view-harness {
   background-color: beige;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -18,21 +19,83 @@ body {
 }
 
 .sidebar {
-  width: 250px;
-  background-color: rgb(159, 165, 163);
+  width: 70px;
+  background: linear-gradient(to bottom, #02584d, #c9e7e3);
   height: 100vh;
   left: 0;
   right: 0;
   transition: transform 0.3s ease-in-out;
+  transition: 0.5s;
   /* this will keep the side bar fixed to its position */
+  overflow: hidden;
 }
 
+.sidebar:hover {
+  width: 250px;
+}
 .top-sidebar {
   padding: 20px;
-  text-align: center;
+  background-color: linear-gradient(to bottom, #013932, #02584d);
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
+.logo-short {
+  font-size: 20px;
+  min-width: 30px;
+  text-align: center;
+  color: #b3b3b3;
+}
+
+.logo-text {
+  opacity: 0;
+  transition: 1s;
+}
+
+.sidebar:hover .logo-text {
+  white-space: nowrap; /*prevents from wrapping during transition*/
+  font-size: 18px;
+  font-weight: bold;
+  color: #b3b3b3;
+  opacity: 1;
+  transition: 0.5s;
+}
 .nav-links {
   list-style: none;
-  padding: 20px;
+  padding: 20px 0px;
+}
+
+.nav-links li a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 23px;
+
+  color: #b3b3b3;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #fff;
+  background-color: #013932;
+  border-left: 4px solid #444445;
+  padding-left: 19px; /* Offsets the 4px border so icons don't shift */
+}
+
+.link-text {
+  opacity: 0;
+  transition: 1s;
+}
+
+.sidebar:hover .link-text {
+  white-space: nowrap; /*prevents from wrapping during transition*/
+  font-size: 18px;
+  font-weight: bold;
+  color: #b3b3b3;
+  opacity: 100;
+  transition: 0.5s;
 }

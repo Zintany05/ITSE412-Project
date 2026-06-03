@@ -1,70 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- box icon usage as a font  -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <!-- this is the cdn for font awsome i linked it so i can use icons  -->
-     <script src="https://kit.fontawesome.com/372263cf93.js" crossorigin="anonymous"></script>
-
+    <script
+      src="https://kit.fontawesome.com/372263cf93.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Everest Dashboard</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main-container">
-<!-- Start of Side Bar -->
+      <!-- Start of Side Bar -->
 
-<div class="sidebar" id="side-bar">
-    <div class="top-sidebar">
-        <div class="logo">
-            <i class="fa-solid fa-mountain"></i>
-                <span class="logo-text">Everest</span>
+      <div class="sidebar" id="side-bar">
+        <div class="top-sidebar">
+          <span class="logo-short"> <i class="fa-solid fa-mountain"></i></span>
+          <span class="logo-text">Everest</span>
         </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#">
+              <i class="fa-regular fa-envelope"></i>
+              <span class="link-text">Contact US</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-circle-info"></i>
+              <span class="link-text">About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              <span class="link-text">Log out</span>
+            </a>
+          </li>
+
+          <li>
+            <!-- we will be using a label and check box for the night mode  -->
+          </li>
+        </ul>
+      </div>
+
+      <!-- End of Side Bar -->
+
+      <!-- start of Dashboar -->
+      <div class="dashboard">
+        <div id="calendar">
+          <!-- we will be keeping this empty and use java script to tell the calendar to show up inside this div  -->
+        </div>
+        <div id="day-details">
+          <!-- this is what will apear when we press on the calendar  -->
+        </div>
+      </div>
+      <!-- End of Dashboard -->
     </div>
-    <div class="user">Porfile pic will be here</div>
-    <ul class="nav-links">
-        <li><a href="#">
-            <i class="fa-regular fa-envelope"></i>
-            <span class="link-text">Contact US</span>
-        </a></li>
-        <li><a href="#">
-            <i class="fa-solid fa-circle-info"></i>
-            <span class="link-text">About</span>
-        </a></li>
-        <li>
-            <button id="night-mode">
-                    <i class="fa-regular fa-moon"></i>
-                    <span class="button-text">Everest at Night</span>
-            </button>
-        </li>
-        <li><a href="#">
-           <i class="fa-solid fa-arrow-right-from-bracket"></i>
-            <span class="link-text">Log out</span>
-        </a></li>
-    </ul>
-</div>
 
-<!-- End of Side Bar -->
-
- <!-- start of Dashboar -->
-  <div class="dashboard">
-    <div id="calendar">
-<!-- we will be keeping this empty and use java script to tell the calendar to show up inside this div  -->
-    </div>
-    <div id="day-details">
-        <!-- this is what will apear when we press on the calendar  -->
-    </div>
-
-  </div>
-  <!-- End of Dashboard -->
-   
-
-  </div gi>
-
-  <script src="js/libs/index.global.min.js"></script>  
-  <script src="js/dashboard.js"></script>
-  <link rel="stylesheet" href="css/dashboard.css">
-</body>
+    <script src="js/libs/index.global.min.js"></script>
+    <script src="js/dashboard.js"></script>
+    <link rel="stylesheet" href="css/dashboard.css" />
+  </body>
 </html>
