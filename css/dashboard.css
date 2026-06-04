@@ -89,13 +89,17 @@ body {
 .link-text {
   opacity: 0;
   transition: 1s;
+  font-size: 18px;
+  font-weight: bold;
+  color: #b3b3b3;
 }
 
 .sidebar:hover .link-text {
   white-space: nowrap; /*prevents from wrapping during transition*/
-  font-size: 18px;
-  font-weight: bold;
-  color: #b3b3b3;
-  opacity: 100;
+  opacity: 1;
   transition: 0.5s;
+}
+
+.nav-links i {
+  flex-shrink: 0;
 }
