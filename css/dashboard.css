@@ -18,6 +18,7 @@ body {
   display: flex;
 }
 
+/* Start of side Bar */
 .sidebar {
   width: 70px;
   background: linear-gradient(to bottom, #02584d, #c9e7e3);
@@ -28,6 +29,7 @@ body {
   transition: 0.5s;
   /* this will keep the side bar fixed to its position */
   overflow: hidden;
+  margin-right: 50px;
 }
 
 .sidebar:hover {
@@ -102,4 +104,15 @@ body {
 
 .nav-links i {
   flex-shrink: 0;
+}
+
+/* 
+End of Side Bar  */
+
+.content-box {
+  display: none;
+}
+
+.content-box.active {
+  display: block;
 }

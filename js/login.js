@@ -18,3 +18,5 @@ const loginLink = document.querySelector("#a-login");
 loginLink.addEventListener("click", (event) => {
   showForm(event, "login");
 });
+
+//i will be adding this logic to my dashboard to make it faster and better instead of going to multiple links

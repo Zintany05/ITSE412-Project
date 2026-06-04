@@ -15,6 +15,7 @@
       crossorigin="anonymous"
     ></script>
 
+    <link rel="stylesheet" href="css/dashboard.css" />
     <title>Everest Dashboard</title>
   </head>
   <body>
@@ -28,25 +29,37 @@
         </div>
         <ul class="nav-links">
           <li>
-            <a href="#">
-              <i class="fa-regular fa-envelope"></i>
-              <span class="link-text">Contact US</span>
+            <a href="#" id="home-a">
+              <i class="fa-solid fa-house-chimney"></i>
+              <span class="link-text">Home</span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" id="contact-a">
+              <i class="fa-regular fa-envelope"></i>
+              <span class="link-text">Contact us</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" id="about-a">
               <i class="fa-solid fa-circle-info"></i>
               <span class="link-text">About</span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" id="report-a">
               <i class="fa-regular fa-chart-bar"></i>
               <span class="link-text">Reports</span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" id="reference-a">
+              <i class="fa-solid fa-book-bookmark"></i>
+              <span class="link-text">References</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" id="logout-a">
               <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <span class="link-text">Log out</span>
             </a>
@@ -61,7 +74,7 @@
       <!-- End of Side Bar -->
 
       <!-- start of Dashboar -->
-      <div class="dashboard">
+      <div class="content-box active" id="dashboard">
         <div id="calendar">
           <!-- we will be keeping this empty and use java script to tell the calendar to show up inside this div  -->
         </div>
@@ -70,10 +83,28 @@
         </div>
       </div>
       <!-- End of Dashboard -->
+
+      <!-- start of contact -->
+
+      <div class="content-box" id="contact">insta</div>
+      <!-- end of Contact -->
+
+      <!-- Start of About -->
+
+      <div class="content-box" id="about">me me</div>
+      <!-- End of About -->
+
+      <!-- Start of Reports -->
+
+      <div class="content-box" id="report">reports reports</div>
+      <!-- End of Reports -->
+      <!-- Start of Reference -->
+
+      <div class="content-box" id="reference">wehre i got stuff from</div>
+      <!-- End of Reference -->
     </div>
 
     <script src="js/libs/index.global.min.js"></script>
     <script src="js/dashboard.js"></script>
-    <link rel="stylesheet" href="css/dashboard.css" />
   </body>
 </html>
