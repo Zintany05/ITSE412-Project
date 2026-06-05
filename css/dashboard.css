@@ -5,6 +5,18 @@
   background-color: beige;
 }
 
+.content-box {
+  display: none;
+  flex-grow: 1;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-box.active {
+  display: block;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +28,7 @@ body {
 
 .main-container {
   display: flex;
+  height: 100vh;
 }
 
 /* Start of side Bar */
@@ -30,6 +43,7 @@ body {
   /* this will keep the side bar fixed to its position */
   overflow: hidden;
   margin-right: 50px;
+  flex-shrink: 0; /* add this so other items dont suffocate it  */
 }
 
 .sidebar:hover {
@@ -102,17 +116,21 @@ body {
   transition: 0.5s;
 }
 
-.nav-links i {
+.nav-links li a i {
   flex-shrink: 0;
 }
 
 /* 
 End of Side Bar  */
 
-.content-box {
-  display: none;
+/* Start of About */
+
+.about-container {
+  display: flex;
 }
 
-.content-box.active {
-  display: block;
+#image-about {
+  padding: 20px;
 }
+
+/* End of About */
